@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter";
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #212529;
+}
+
+#container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    border: 3px solid #ADB5BD;
+    border-bottom: none;
+    background-color: #495057;
+  }
+
+  .info-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #ADB5BD;
+    border-top: none;
+    background-color: #212529;
+    color: white;
+    flex: 1;
+
+    h3 {
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    div {
+      display: flex;
+      width: 100%;
+
+      p {
+        width: 100%;
+        font-weight: bold;
+        margin: 0;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 8px 0 8px 0;
+      }
+    }
+  }
+}
+
+#search-bar {
+  width: 500px;
+  height: 40px;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .short {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 200px;
+    }
+
+    .types {
+      display: flex;
+      flex-direction: row;
+
+      p {
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+        color: white;
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.bug {
+  background-color: green;
+}
+.dark {
+  background-color: black;
+}
+.dragon {
+  background-color: royalblue;
+}
+.electric {
+  background-color: yellow;
+}
+.fairy {
+  background-color: pink;
+}
+.fighting {
+  background-color: orangered;
+}
+.fire {
+  background-color: red;
+}
+.flying {
+  background-color: cornflowerblue;
+}
+.ghost {
+  background-color: blueviolet;
+}
+.grass {
+  background-color: greenyellow;
+}
+.ground {
+  background-color: burlywood;
+}
+.ice {
+  background-color: skyblue;
+}
+.normal {
+  background-color: plum;
+}
+.poison {
+  background-color: rebeccapurple;
+}
+.psychic {
+  background-color: pink;
+}
+.rock {
+  background-color: brown;
+}
+.steel {
+  background-color: aqua;
+}
+.water {
+  background-color: blue;
+}
