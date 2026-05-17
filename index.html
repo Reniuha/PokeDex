@@ -6,10 +6,25 @@
     <title>PokeDex</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <input type="text" id="search-bar" placeholder="Search..." />
-    <div id="container"></div>
+<body>
+  <input type="text" id="search-bar" placeholder="Search..." />
 
-    <script src="script.js"></script>
-  </body>
+  <div class="filters">
+    <div class="dropdown">
+      <label for="filter">Sort By</label>
+
+      <select name="filter" id="filter" class="filter">
+        <option value="Lowest">Lowest Number (First)</option>
+        <option value="Highest">Highest Number (First)</option>
+        <option value="A-Z">A-Z</option>
+        <option value="Z-A">Z-A</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="container"></div>
+  <div id="change-page"></div>
+
+  <script src="script.js"></script>
+</body>
 </html>
